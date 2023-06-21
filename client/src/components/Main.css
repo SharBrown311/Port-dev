@@ -1,0 +1,59 @@
+*{
+  box-sizing: border-box;
+}
+.container{
+  padding: 0.01em 16px;
+  text-align: left;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+}
+.card{
+  box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16),
+   0 2px 10px 0 rgba(0,0,0,0.12);
+   margin-bottom: .5rem;
+}
+.main-container{
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  
+}
+
+/* .left-column{
+  padding-left: 2rem;
+  padding-right: 2rem;
+  text-align: left;
+} */
+/* .image-container{
+  margin-top: 1rem;
+  background-image: url("../assets/images/PhotoRoom-20230615-102633.JPG");
+  border: .625rem ridge darkcyan;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 350px;
+  width: 300px;
+} */
+.text{
+  margin-left: .5rem;
+}
+.form-container{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+}
+.about-body{
+  text-align: center;
+  padding-right: 8rem;
+  padding-left: 8rem;
+}
+.view-button{
+  border: transparent;
+}
+.view-button:hover{
+  background-color: darkcyan;
+}
+.fas:hover{
+  color: whitesmoke;
+}
